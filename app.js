@@ -4,7 +4,7 @@ $(function(){
 		e.preventDefault(); 
 		var url = this.href; 
 		$('#container').empty(); 
-		$('#container').load(url).hide().fadeIn(250);
+		$('#container').load(url).hide().fadeIn(slow); 
 	}); 
 
 })
