@@ -2,7 +2,9 @@ $(function(){
 
 	$('nav a').on('click', function(e) {
 		e.preventDefault(); 
-		alert('hello world'); 
+		var url = this.href; 
+		console.log(url); 
+		
 	}); 
 
 })
